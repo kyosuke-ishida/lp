@@ -1,0 +1,7 @@
+@import '../../properties.css';
+
+.header {
+    background-color: blue;
+    height: 375px;
+    width: 351.38px;
+}
