@@ -1,11 +1,9 @@
 import React from 'react';
 import styles from './styles.css';
-import Heading from  '../../atoms/Heading/index';
-import Header from '../../molecules/Header/index';
-
+import TopHeader from '../../organisms/TopHeader/index';
 
 const HomePageTemplate = () => (
-    <Header />
+    <TopHeader />    
 );
 
 export default HomePageTemplate;
