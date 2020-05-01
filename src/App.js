@@ -1,6 +1,4 @@
 import React from 'react';
-import './App.scss';
-import Heading from './components/atoms/Heading/index'
 import HomePage from './components/pages/HomePage';
 
 function App() {

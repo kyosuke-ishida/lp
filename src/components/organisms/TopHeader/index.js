@@ -3,10 +3,12 @@ import React from 'react';
 import styles from './styles.css';
 import Heading from '../../atoms/Heading/index';
 import Header from '../../molecules/Header/index';
+import Logo from '../../molecules/Logo/index';
 
 const TopHeader = () => (
-    <Header className={styles.header}>
-        <Heading className={styles.heading}>Friend</Heading>
+    <Header>
+        <Logo />
+        <Heading className="heading" level={1}>考え方で繋がろう</Heading>
     </Header>
 );
 
